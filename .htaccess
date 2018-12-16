@@ -1,4 +1,4 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteRule ^(.*)$ mybio/
+    RewriteRule ^(.*)$ mybio/$1 [L]
 </IfModule>
